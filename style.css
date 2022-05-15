@@ -1,0 +1,38 @@
+.square {
+  width: 200px;
+  height: 200px;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Mobile Device */
+@media all and (min-width: 768px) {
+.container{
+  width: 300px;
+}
+
+.green {
+  background-color:brown;
+}
+}
