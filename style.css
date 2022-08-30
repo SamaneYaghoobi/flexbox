@@ -1,6 +1,8 @@
 .square {
   width: 200px;
   height: 200px;
+  border: 3px solid rgb(60, 60, 60);
+  margin: 10px;
 }
 .blue {
   background-color: blue;
@@ -18,21 +20,19 @@
   background-color: green;
 }
 .container {
-  width: 500px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  width: 1000px;
+  border: 3px solid rgb(60, 60, 60);
+  background-color: gray;
+  padding: 20px;
 }
 
 /* Mobile Device */
-@media all and (min-width: 768px) {
-.container{
-  width: 300px;
-}
+/* @media all and (min-width: 768px) {
+  .container {
+    width: 300px;
+  }
 
-.green {
-  background-color:brown;
-}
-}
+  .green {
+    background-color: brown;
+  }
+} */
